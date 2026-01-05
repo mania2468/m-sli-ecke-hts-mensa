@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bewerbungsformular</title>
+<style>
+body {
+font-family: "Segoe UI", Arial, sans-serif;
+background: #b5ccf5;
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: center;
+}
+.container {
+width: 95%;
+max-width: 650px;
+background: white;
+margin: 40px 0;
+padding: 30px;
+border-radius: 12px;
+box-shadow: 0 4px 25px rgba(0,0,0,0.08);
+}
+h2 {
+text-align: center;
+margin-bottom: 25px;
+color: #333;
+}
+label {
+font-weight: 600;
+display: block;
+margin: 18px 0 6px;
+}
+input, select, textarea {
+width: 100%;
+padding: 12px;
+border-radius: 8px;
+border: 1px solid #ccc;
+font-size: 15px;
+}
+textarea {
+height: 130px;
+resize: vertical;
+}
+.row {
+display: flex;
+gap: 12px;
+}
+.row > div {
+flex: 1;
+}
+.submit-btn {
+margin-top: 30px;
+width: 100%;
+padding: 15px;
+background: #4a6cf7;
+color: white;
+border: none;
+border-radius: 10px;
+font-size: 17px;
+cursor: pointer;
+transition: 0.3s;
+}
+.submit-btn:hover {
+background: #3f5bd1;
+}
+.file-upload {
+border: 2px dashed #caced6;
+padding: 25px;
+border-radius: 10px;
+text-align: center;
+margin-top: 10px;
+cursor: pointer;
+}
+.file-upload:hover {
+background: #f0f1f5;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<h2 style="font-size: 40px;">Bewerbungsformular</h2>
+<form>
+<!-- Name -->
+<label>Anrede *</label>
+<select required>
+<option value="">Bitte wählen…</option>
+<option>Herr</option>
+<option>Frau</option>
+<option>Divers</option>
+</select>
+<div class="row">
+<div>
+<label>Vorname *</label>
+<input type="text" required>
+</div>
+<div>
+<label>Nachname *</label>
+<input type="text" required>
+</div>
+</div>
+<!-- Adresse -->
+<label>Straße und Hausnummer *</label>
+<input type="text" required>
+<label>Stadt *</label>
+<input type="text" required>
+<label>Postleitzahl *</label>
+<input type="text" required>
+<!-- Kontakt -->
+<label>E-Mail-Adresse *</label>
+<input type="email" required>
+<label>Telefonnummer *</label>
+<div class="row">
+<div>
+<label>Vorwahl *</label>
+<input type="text" required>
+</div>
+<div>
+<label>Nummer *</label>
+<input type="text" required>
+</div>
+</div>
+<!-- Stelle -->
+<label>Ab wann könntest du anfangen? *</label>
+<input type="date" required>
+<label>Warum möchtest du dich auf diese Stelle bewerben? *</label>
+<textarea required></textarea>
+<button class="submit-btn" type="submit">Bewerbung absenden</button>
+</form>
+</div>
+</body>
+</html>

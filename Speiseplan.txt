@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Wochenspeiseplan</title>
+<style>
+body {
+margin: 0;
+padding: 0;
+font-family: "Georgia", serif;
+background: #b5ccf5;
+}
+.navbar {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px 60px;
+background: white;
+}
+.navbar .logo {
+font-size: 30px;
+}
+.navbar .logo {
+font-size: 30px;
+}
+.navbar ul {
+list-style: none;
+display: flex;
+gap: 30px;
+}
+.navbar a {
+text-decoration: none;
+color: #333;
+font-size: 16px;
+}
+.hero {
+background: #b5b5b5;
+text-align: center;
+padding: 120px 20px;
+color: white;
+}
+.hero h1 {
+font-size: 50px;
+font-weight: 300;
+}
+.hero .heart {
+color: white;
+}
+.hero p {
+font-size: 18px;
+margin-top: 15px;
+}
+.cta {
+margin-top: 30px;
+padding: 12px 35px;
+border: none;
+border-radius: 30px;
+background: #888;
+color: white;
+cursor: pointer;
+font-size: 16px;
+}
+.background {
+position: fixed;
+top: 0; left: 0; right: 0; bottom: 0;
+background-image: url('/mnt/data/IMG_3686.webp'); 
+background-repeat: no-repeat;
+background-size: cover;
+opacity: 0.22;
+z-index: -1;
+}
+.menu-box {
+width: 70%;
+max-width: 700px;
+margin: 60px auto;
+background: white;
+padding: 50px 40px;
+box-shadow: 0 0 25px rgba(0,0,0,0.08);
+text-align: center;
+border-radius: 4px;
+}
+h1 {
+font-size: 48px;
+letter-spacing: 3px;
+margin-bottom: 5px;
+}
+h2 {
+margin-top: 40px;
+font-size: 26px;
+color: #4f553d;
+}
+.day-box {
+margin-top: 5px;
+margin-bottom: 25px;
+}
+.food-input {
+width: 90%;
+padding: 10px;
+font-size: 16px;
+border: 1px solid #ccc;
+border-radius: 3px;
+font-family: inherit;
+}
+</style>
+</head>
+<body>
+<header class="navbar"> 
+    <div class="logo">
+        <a href="Luise.html"><img src="logo.png" width="100px" height="120"></a>
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="Luise.html">Home</a></li>
+            <li><a href="speiseplan.html">Speiseplan</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Impressum</a></li>
+            <li><a href="#">Datenschutz</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="background"></div>
+<div class="menu-box">
+<h1>Wochenmenü</h1>
+<h2>Montag</h2>
+<div class="day-box">
+<input class="food-input" type="text" placeholder="Tagesessen eintragen ...">
+</div>
+<h2>Dienstag</h2>
+<div class="day-box">
+<input class="food-input" type="text" placeholder="Tagesessen eintragen ...">
+</div>
+<h2>Mittwoch</h2>
+<div class="day-box">
+<input class="food-input" type="text" placeholder="Tagesessen eintragen ...">
+</div>
+<h2>Donnerstag</h2>
+<div class="day-box">
+<input class="food-input" type="text" placeholder="Tagesessen eintragen ...">
+</div>
+<h2>Freitag</h2>
+<div class="day-box">
+<input class="food-input" type="text" placeholder="Tagesessen eintragen ...">
+</div>
+</div>
+</body>
+</html>

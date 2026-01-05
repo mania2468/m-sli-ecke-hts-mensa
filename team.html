@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mensa-Team – HTS</title>
+
+<style>
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #b5ccf5;
+    font-family: 'CanvasAns', sans-serif;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background: white;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+.title {
+    text-align: center;
+    margin: 60px 0 40px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white; 
+}
+.container {
+    width: 80%;
+    max-width: 900px;
+    margin: 0 auto 80px;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 40px;
+}
+.card {
+    background: white;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.card img {
+    width: 100%;
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+    background: #ddd;
+    margin-bottom: 12px;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-top: 5px;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 0.95rem;
+    color: #444;
+    margin-top: 5px;
+}
+</style>
+</head>
+
+<body>
+
+<header class="navbar">
+    <div class="logo">
+        <img src="logo.png" width="100" height="120">
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="Luise.html">Home</a></li>
+            <li><a href="speiseplan.html">Speiseplan</a></li>
+            <li><a href="FAQ.html">FAQ</a></li>
+            <li><a href="Impressum.html">Impressum</a></li>
+            <li><a href="Datenschutz.html">Datenschutz</a></li>
+        </ul>
+    </nav>
+</header>
+<h1 class="title">Unser ehrenamtliches Mensa-Team!</h1>
+<div class="container">
+    <div class="gallery">
+
+        <div class="card">
+            <img src="https://via.placeholder.com/300x400?text=Beispielbild">
+            <div class="name">Name 1</div>
+            <div class="quote">„Kochen mit Herz und Leidenschaft.“</div>
+        </div>
+
+        <div class="card">
+            <img src="https://via.placeholder.com/300x400?text=Beispielbild">
+            <div class="name">Name 2</div>
+            <div class="quote">„Jeder Teller zählt.“</div>
+        </div>
+
+        <div class="card">
+            <img src="https://via.placeholder.com/300x400?text=Beispielbild">
+            <div class="name">Name 3</div>
+            <div class="quote">„Gemeinsam schmeckt es besser.“</div>
+        </div>
+
+        <div class="card">
+            <img src="https://via.placeholder.com/300x400?text=Beispielbild">
+            <div class="name">Name 4</div>
+            <div class="quote">„Mit Freude für euch da.“</div>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>
+
+

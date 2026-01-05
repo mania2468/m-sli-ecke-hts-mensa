@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Datenschutzerklärung</title>
+<style>
+body {
+font-family: Arial, Helvetica, sans-serif;
+margin: 40px;
+line-height: 1.6;
+}
+.container {
+width: 800px;
+margin: auto;
+position: relative;
+}
+.logo {
+position: absolute;
+top: 0;
+right: 0;
+width: 160px;
+}
+h1, h2 {
+font-size: 20px;
+margin-top: 25px;
+}
+p {
+text-align: justify;
+}
+a {
+color: #0055cc;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<!-- LOGO -->
+<img src="logo.png" alt="Logo" class="logo">
+<p><strong>Datenschutzerklärung</strong><br>
+Benennung der verantwortlichen Stelle<br>
+Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:<br>
+HTS-Müsli-Ecke<br>
+Hermann-Tast-Schule Husum<br>
+Am Bahndamm<br>
+25813 Husum
+</p>
+<p>
+Die verantwortliche Stelle entscheidet allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z.B. Namen, Kontaktdaten o. Ä.).
+</p>
+<h2>Widerruf Ihrer Einwilligung zur Datenverarbeitung</h2>
+<p>
+Nur mit Ihrer ausdrücklichen Einwilligung sind einige Vorgänge der Datenverarbeitung möglich. Ein Widerruf Ihrer bereits erteilten Einwilligung ist jederzeit möglich. Für den Widerruf genügt eine formlose Mitteilung per E-Mail. Die Rechtmäßigkeit der bis zum Widerruf erfolgten Datenverarbeitung bleibt vom Widerruf unberührt.
+</p>
+<h2>Recht auf Beschwerde bei der zuständigen Aufsichtsbehörde</h2>
+<p>
+Als Betroffener steht Ihnen im Falle eines datenschutzrechtlichen Verstoßes ein Beschwerderecht bei der zuständigen Aufsichtsbehörde zu. Zuständige Aufsichtsbehörde bezüglich datenschutzrechtlicher Fragen ist der Landesdatenschutzbeauftragte des Bundeslandes, in dem sich der Sitz unseres Unternehmens befindet. Der folgende Link stellt eine Liste der Datenschutzbeauftragten sowie deren Kontaktdaten bereit:<br>
+<a href="https://www.bfdi.bund.de/DE/Infothek/Anschriften_Links/anschriften_links-node.html">https://www.bfdi.bund.de/DE/Infothek/Anschriften_Links/anschriften_links-node.html</a>
+</p>
+<h2>Recht auf Datenübertragbarkeit</h2>
+<p>
+Ihnen steht das Recht zu, D

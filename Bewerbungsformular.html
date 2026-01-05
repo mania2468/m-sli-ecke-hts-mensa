@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bewerbungsformular</title>
+<style>
+body {
+font-family: "Segoe UI", Arial, sans-serif;
+background: #b5ccf5;
+margin: 0;
+padding: 0;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background: white;
+}
+.navbar .logo img {
+    display: block;
+}
+
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+.navbar a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+.hero {
+background: #b5b5b5;
+text-align: center;
+padding: 120px 20px;
+color: white;
+}
+.hero h1 {
+font-size: 50px;
+font-weight: 300;
+}
+.hero .heart {
+color: white;
+}
+.hero p {
+font-size: 18px;
+margin-top: 15px;
+}
+.cta {
+margin-top: 30px;
+padding: 12px 35px;
+border: none;
+border-radius: 30px;
+background: #888;
+color: white;
+cursor: pointer;
+font-size: 16px;
+}
+.background {
+position: fixed;
+top: 0; left: 0; right: 0; bottom: 0;
+background-image: url('/mnt/data/IMG_3686.webp'); 
+background-repeat: no-repeat;
+background-size: cover;
+opacity: 0.22;
+z-index: -1;
+}
+.menu-box {
+width: 70%;
+max-width: 700px;
+margin: 60px auto;
+background: white;
+padding: 50px 40px;
+box-shadow: 0 0 25px rgba(0,0,0,0.08);
+text-align: center;
+border-radius: 4px;
+}
+h1 {
+font-size: 48px;
+letter-spacing: 3px;
+margin-bottom: 5px;
+}
+h2 {
+margin-top: 40px;
+font-size: 26px;
+color: #4f553d;
+}
+.day-box {
+margin-top: 5px;
+margin-bottom: 25px;
+}
+.food-input {
+width: 90%;
+padding: 10px;
+font-size: 16px;
+border: 1px solid #ccc;
+border-radius: 3px;
+font-family: inherit;
+}
+
+.cta {
+    margin-top: 30px;
+    padding: 12px 35px;
+    border: none;
+    border-radius: 30px;
+    background: #6e93d3;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+.cta:hover {
+    background: #5a7ec1;
+}
+.container {
+width: 95%;
+max-width: 650px;
+background: white;
+margin: 40px auto;
+padding: 30px;
+border-radius: 12px;
+box-shadow: 0 4px 25px rgba(0,0,0,0.08);
+}
+h2 {
+text-align: center;
+margin-bottom: 25px;
+color: #333;
+}
+label {
+font-weight: 600;
+display: block;
+margin: 18px 0 6px;
+}
+input, select, textarea {
+width: 100%;
+padding: 12px;
+border-radius: 8px;
+border: 1px solid #ccc;
+font-size: 15px;
+}
+textarea {
+height: 130px;
+resize: vertical;
+}
+.row {
+display: flex;
+gap: 12px;
+}
+.row > div {
+flex: 1;
+}
+.submit-btn {
+margin-top: 30px;
+width: 100%;
+padding: 15px;
+background: #4a6cf7;
+color: white;
+border: none;
+border-radius: 10px;
+font-size: 17px;
+cursor: pointer;
+transition: 0.3s;
+}
+.submit-btn:hover {
+background: #3f5bd1;
+}
+.file-upload {
+border: 2px dashed #caced6;
+padding: 25px;
+border-radius: 10px;
+text-align: center;
+margin-top: 10px;
+cursor: pointer;
+}
+.file-upload:hover {
+background: #f0f1f5;
+}
+</style>
+</head>
+<body>
+<header class="navbar"> 
+    <div class="logo">
+        <a href="Luise.html"><img src="logo.png" width="100px" height="120"></a>
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="Luise.html">Home</a></li>
+            <li><a href="speiseplan.html">Speiseplan</a></li>
+            <li><a href="FAQ.html">FAQ</a></li>
+            <li><a href="Impressum.html">Impressum</a></li>
+            <li><a href="Datenschutz.html">Datenschutz</a></li>
+        </ul>
+    </nav>
+</header>
+<div class="container">
+<h2 style="font-size: 40px;">Bewerbungsformular</h2>
+<form>
+<label>Anrede *</label>
+<select required>
+<option value="">Bitte wählen…</option>
+<option>Herr</option>
+<option>Frau</option>
+<option>Divers</option>
+</select>
+<div class="row">
+<div>
+<label>Vorname *</label>
+<input type="text" required>
+</div>
+<div>
+<label>Nachname *</label>
+<input type="text" required>
+</div>
+</div>
+<label>Straße und Hausnummer *</label>
+<input type="text" required>
+<label>Stadt *</label>
+<input type="text" required>
+<label>Postleitzahl *</label>
+<input type="text" required>
+<label>E-Mail-Adresse *</label>
+<input type="email" required>
+<label>Telefonnummer *</label>
+<div class="row">
+<div>
+<label>Vorwahl *</label>
+<input type="text" required>
+</div>
+<div>
+<label>Nummer *</label>
+<input type="text" required>
+</div>
+</div>
+<label>Ab wann könntest du anfangen? *</label>
+<input type="date" required>
+<label>Warum möchtest du dich auf diese Stelle bewerben? *</label>
+<textarea required></textarea>
+<button class="submit-btn" type="submit">Bewerbung absenden</button>
+</form>
+</div>
+</body>
+</html>

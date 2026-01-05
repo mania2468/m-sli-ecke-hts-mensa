@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HTS Müslie-Ecke</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background: white;
+}
+.navbar .logo img {
+    display: block;
+}
+
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+.navbar a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+.hero {
+    background: #b5ccf5;
+    text-align: center;
+    padding: 120px 20px;
+    color: white;
+}
+.hero h1 {
+    font-size: 50px;
+    font-weight: 300;
+}
+.hero .heart {
+    color: white;
+}
+.hero p {
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+
+.cta {
+    margin-top: 30px;
+    padding: 12px 35px;
+    border: none;
+    border-radius: 30px;
+    background: #6e93d3;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+.cta:hover {
+    background: #5a7ec1;
+}
+
+
+.color-cards {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 60px 20px;
+    background: #f5f5f5;
+}
+
+.card {
+    background: white;
+    padding: 30px;
+    width: 280px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card .icon {
+    width: 80px;     
+    height: 80px;
+    margin: 0 auto 20px;
+}
+.card .icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; 
+    display: block;
+}
+
+.card h3 {
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+</style>
+</head>
+
+<body>
+
+
+<header class="navbar"> 
+    
+    <div class="logo">
+        <img src="logo.png" width="100px" height="120">
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="Luise.html">Home</a></li>
+            <li><a href="speiseplan.html">Speiseplan</a></li>
+            <li><a href="FAQ.html">FAQ</a></li>
+            <li><a href="Impressum.html">Impressum</a></li>
+            <li><a href="Datenschutz.html">Datenschutz</a></li>
+        </ul>
+    </nav>
+
+</header>
+
+
+<section class="hero">
+    <h1><span class="heart">♥</span>-lich Willkommen</h1>
+    <p>Die HTS bietet von Montag bis Donnerstag eine vielfältige Auswahl an Mittagessen an.</p>
+    <button class="cta" onclick="location.href='login.html'">Login</button>
+</section>
+
+<section class="color-cards">
+
+   
+    <div class="card" onclick="location.href='Vorbestellungen.html'">
+        <div class="icon">
+            <img src="gabel.jpeg" alt="Icon Vorbestellung">
+        </div>
+        <h3>Vorbestellungen</h3>
+        <p>Hier kannst du das geplante Mittagessen der nächsten zwei Wochen sehen und direkt bestellen!</p>
+    </div>
+
+    
+    <div class="card" onclick="location.href='Bewerbungsformular.html'">
+        <div class="icon">
+            <img src="formular.png" alt="Icon Bewerbung">
+        </div>
+        <h3>Jetzt bewerben!</h3>
+        <p>Das Mensa Team ist auf die ehrenamtliche Unterstützung von den Familien der Schüler angewiesen!</p>
+    </div>
+
+    
+    <div class="card" onclick="location.href='team.html'">
+        <div class="icon">
+            <img src="portrai.png" alt="Icon Team">
+        </div>
+        <h3>Das Team</h3>
+        <p>Lerne unser Team der HTS Müsli-Ecke kennen, das jeden Tag mit viel Freude euer Mittagessen zubereitet!</p>
+    </div>
+
+</section>
+
+</body>
+</html>
